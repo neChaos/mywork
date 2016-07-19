@@ -1,0 +1,69 @@
+#doc{background:#f8f8f8;}
+#hd{background:#fff;}
+#bd{width:100%;margin-top:16px;color:#333;}
+.topbar{height:40px;background:#f8f8f8;border-bottom:solid 1px #cecece;box-shadow:0 2px 8px rgba(0,0,0,0.15);color:#333;}
+.topbar .inner{width:1114px;margin:0 auto;padding:0 28px;line-height:40px;}
+.topbar .inner h2{font-size:12px;}
+.topbar .inner h2 strong{margin-right:12px;font-size:18px;font-weight:normal;}
+.topbar .inner p strong{color:#f33e3e;font-weight:normal;}
+
+.goodslive{width:960px;margin:0 auto;background:#fff;box-shadow:1px 1px 4px 0 rgba(0,0,0,0.1);border-radius:6px;}
+.goodslive .tab{height:47px;border-bottom:solid 1px #eee;font-size:0;text-align:center;line-height:43px;}
+.goodslive .tab span{display:inline-block;padding:2px 16px;font-size:16px;cursor:pointer;}
+.goodslive .tab .cur{padding-bottom:0;color:#f33e3e;border-bottom:solid 3px #f33e3e;}
+
+.goodslive .content{padding:0 28px;}
+.goodslive .filter{margin:-2px -8px 0;font-size:0;text-align:center;display:none;}
+.goodslive .filter a{display:inline-block;height:26px;padding:0 8px;margin:16px 8px 0;line-height:26px;font-size:14px;border-radius:6px;background:#f4f4f4;color:#333;}
+.goodslive .filter a:hover{background:#ff3636;color:#fff;}
+.goodslive .filter .cur{background:#ff3636;color:#fff;}
+.goodslive .notice{margin-top:16px;text-align:center;display:none;}
+.goodslive .notice a{display:inline-block;height:30px;padding:0 32px;line-height:30px;border-radius:15px;background:#ff5e5e;color:#fff;}
+.livelist{overflow:hidden;}
+.livelist ul{margin-top:-1px;}
+.livelist .item.nodata{text-align:center;}
+.livelist .item{padding:32px 0 10px;border-top:dashed 1px #d8d8d8;}
+.livelist .item .time{width:70px;height:28px;margin-right:12px;line-height:28px;background:#f4f4f4;text-align:center;overflow:hidden;}
+.livelist .desc{width:560px;}
+.livelist .desc .title{max-height:40px;line-height:20px;font-size:16px;overflow:hidden;}
+.livelist .desc .title a{color:#333;}
+.livelist .desc .price{margin:12px 0 0 -12px;font-size:0;}
+.livelist .desc .price .low{margin-left:12px;color:#f33e3e;font-size:16px;}
+.livelist .desc .price em{font-weight:bold;}
+.livelist .desc .price .tag{margin-right:12px;color:#f33e3e;font-size:16px;}
+.livelist .desc .price .high{font-size:14px;color:#999;}
+.livelist .desc .area{margin-top:10px;}
+.livelist .info{width:150px;}
+.livelist .info .pic{display:table-cell;width:150px;height:150px;text-align:center;overflow:hidden;line-height:150px;}
+.livelist .info .pic img{max-width:150px;max-height:150px;vertical-align:middle;}
+.livelist .info .btn{display:block;width:120px;height:38px;padding:2px 0 8px;margin:28px auto 0;line-height:14px;background:#ff3636;text-align:center;color:#fff;border-radius:6px;font-weight:bold;}
+.livelist .info .btn span{display:block;margin-top:6px;}
+.livelist .loading{padding-bottom:20px;line-height:40px;text-align:center;display:none;}
+
+
+/* price trend */
+.pricetrend{font-size: 12px;font-style:normal;font-family:'Microsoft YaHei';background:#fff;color:#333;line-height:normal;}
+.pricetrend a{ color:#333; text-decoration:none;display:inline-block;}
+.pricetrend .chrome-price{min-width:360px;_width:360px;padding:5px;}
+.title-bar{ height:26px;line-height:26px;font-size:14px;font-weight:bold;padding-left:10px;}
+.title-bar span{ display:block;width:180px;}
+.content-pane{position:relative; height:158px;}
+.chart{background-color:#fff;
+	width: 317px;
+	position: relative;
+	height: 162px;
+	float: left;
+	z-index:9;}
+.rightWord{
+	width: auto;
+	margin-left: 325px;
+	height: 162px;
+	white-space: nowrap;
+	line-height:normal;}
+.rightWord .high{margin-top:10px;}
+.rightWord .low{ margin-top:40px;}
+
+
+/* go top */
+#priceLiveGoTop{position:fixed;bottom:30px;left:50%;width:48px;height:48px;margin-left:490px;background:url(http://img.miaomiaoz.com/img/show/5e021dffe57c9bcf35745c298a609f97) 15px -15px #fff;text-indent:-999em;overflow:hidden;border:1px solid #eee;border-radius:4px;display:none;}
+#priceLiveGoTop:hover{background-position:15px -51px;}
